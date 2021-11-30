@@ -2,7 +2,7 @@
   
 # Bootcamp Avanade
 > Repositório destinado à anotações, projetos etc., referentes aos cursos do bootcamp da Avanade do site DIO.me
-  
+</div> 
   
 <br>
 <br>
@@ -21,4 +21,4 @@
 </table>
 <!---------------------------------------------------------------->
   
-</div>
+
