@@ -2,7 +2,7 @@
 
 # Git & GitHub
 > Foi aprendido os conceitos base do funcionamento da ferramenta Git e do repositório remoto GitHub  
-> ⏳ Duração: 7h
+> ⏳ Duração: 6h
 
 </div>
 
@@ -61,8 +61,26 @@
 > > #
 > > **Chave RSA (Rivest-Shamir-Adleman)** - É um dos primeiros sistemas de criptografia de chave pública e é amplamente utilizado para transmissão segura de dados. Neste sistema de criptografia, a chave de encriptação é pública e é diferente da chave de decriptação que é secreta (privada).
 > > #
+>
 > Podemos criar uma chave SSH pelo GitBash pelo comando:
+> `$ ssh-keygen -t ed25519 -C leonardo.delgadosp2014@gmail.com` - Gerará dois arquivos contendo uma chave pública e uma privada, dentro do diretório `.ssh`.
+> > #
+> > **Flags Usadas:**
+> > - `-t <dsa | ecdsa | ecdsa-sk | ed25519 | ed25519-sk | rsa>` - tipo de códificação da chave ssh.
+> > - `-C comment` - adiciona um comentário para identificação da chave, foi usado o meu email nesse exemplo.
+> > #
+>
+> Após isso, podemos entrar dentro da nossa conta do GitHub em configurações na parte de SSH e registar uma chave lá, a chave que registramos é a chave pública (arquivo com a extensão ".pub")
 > 
+> Só precisamos inicializar um agente ssh, que funcionará como interpretador do código que recebermos, para isso no GitBash dentro da pasta .ssh: <br>
+> `$ eval $(ssh-agent -s)` - cria um processo de um agente ssh.
+> 
+> Por fim só basta adicionar a nossa chave privada nesse agente: <br>
+> `# ssh-add file`
+> 
+> Agora quando enviarmos qualquer arquivo para o GitHub atraves do push ou recebermos pelo pull, não será solicitado uma confirmação de senha para nossa conta, pois o ssh já está autenticando nossa máquina, além de termos uma proteção de dados maior.
+> 
+> #
 
 <div align="center">
   <img name="borda-divisora-baixo" src="https://user-images.githubusercontent.com/60985347/144116278-04e3380a-d516-4017-916c-62301948b09b.png" width="30%"/>
