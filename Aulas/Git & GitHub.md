@@ -82,6 +82,38 @@
 > 
 > #
 
+
+<div align="center">
+  <img name="borda-divisora-baixo" src="https://user-images.githubusercontent.com/60985347/144116278-04e3380a-d516-4017-916c-62301948b09b.png" width="30%"/>
+</div>
+
+## Comandos GitBash
+<table>
+  <tr>
+    <th align="left">Comando</th>
+    <th align="left">Descrição</th>
+  </tr>
+  <!-- linha 1-->
+  <tr>
+    <th align="left">$ clear</th>
+    <td>limpa o terminal</td>
+  </tr>
+  <tr>
+  <!-- linha 2-->
+    <th align="left">$ ls</th>
+    <td>lista todos diretórios e arquivos do caminho atual</td>
+  </tr>
+  <!-- linha 3-->
+    <th align="left">$ pwd</th>
+    <td>mostra o caminho completo atual</td>
+  </tr>
+  <!-- linha 4-->
+    <th align="left">$ cat [file] </th>
+    <td>Mostra o conteúdo do arquivo informado</td>
+  </tr>
+</table>
+
+
 <div align="center">
   <img name="borda-divisora-baixo" src="https://user-images.githubusercontent.com/60985347/144116278-04e3380a-d516-4017-916c-62301948b09b.png" width="30%"/>
 </div>
