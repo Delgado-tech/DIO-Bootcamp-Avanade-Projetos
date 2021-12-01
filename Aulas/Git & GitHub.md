@@ -1,3 +1,7 @@
+<span id="header"/>
+
+<a href="https://github.com/Delgado-tech/dio-bootcamp-avanade-projetos">◀ Voltar</a>
+
 <div align="center">
 
 # Git & GitHub
@@ -10,10 +14,32 @@
   <img name="borda-divisora-cima" src="https://user-images.githubusercontent.com/60985347/144115785-57af7916-729a-4dc8-aa8b-4ec1e51e8dd1.png" width="30%"/>
 </div>
 
+<span id="summary">
+
+# Sumário
+> - **<a href="#topic1">Conceitos</a>**
+> > - **<a href="#subtopic1">Git & GitHub</a>**
+> > - **<a href="#subtopic2">GUI x CLI</a>**
+> > - **<a href="#subtopic3">SHA1</a>** 
+> > - **<a href="#subtopic4">Tipos de armazenamento do Git</a>**
+> > - **<a href="#subtopic5">Chave SSH</a>**
+> - **<a href="#topic2">Comandos GitBash</a>**
+>
+> - **<a href="#footer">Rodapé</a>**
+
+
+<div align="center">
+  <img name="borda-divisora-baixo" src="https://user-images.githubusercontent.com/60985347/144116278-04e3380a-d516-4017-916c-62301948b09b.png" width="30%"/>
+</div>
+
 <br>
 
+<span id="topic1"/>
+
 ## Conceitos
-> ### Git
+> <a href="#summary">#retornar ao sumário</a>
+
+> ### Git <span id="subtopic1"/>
 > É um software criado por Linus Torvalds (mesmo criador e desenvolvedor do sistema operacional Linux) e sua equipe de desenvolvedores, que baseia-se em um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, podendo ser utilizado para registrar o histórico de edições de qualquer tipo de arquivo.
 >
 > ### GitHub
@@ -21,7 +47,7 @@
 >
 > #
 >
-> ### GUI x CLI
+> ### GUI x CLI <span id="subtopic2"/>
 > - **Graphic User Interface** - São programas que disponibilizam de uma interface gráfica permitindo você interagir com o software.
 > - **Command Line Interface** - São programas que disponibilizam apenas de linhas de comando para você interagir com o software (ex: Terminal do Windows, Linus, MacOS, etc.).
 >
@@ -29,7 +55,7 @@
 >
 > #
 >
-> ### SHA1
+> ### SHA1 <span id="subtopic3"/>
 > **Secure Hash Algorithm**, é um algoritimo de encripitação Hash, onde ele utilizará da encriptação hash para embaralhar de uma forma específica os dados presentes do objeto, com o intuito de proteger as informações contidas no arquivo criptografado.
 > A encriptação irá gerar uma chave de 40 digítos única, que servirá como o identificador daquele arquivo.
 > 
@@ -40,7 +66,7 @@
 >
 > #
 >
-> ### Tipos de armazenamento do Git
+> ### Tipos de armazenamento do Git <span id="subtopic4"/>
 > Existem 3 níveis de armazenamento no Git, sendo eles Blob, Tree e Commit
 >
 > - **Blob** -
@@ -56,7 +82,7 @@
 >
 > #
 >
-> ### Chave SSH (Secure Shell)
+> ### Chave SSH (Secure Shell) <span id="subtopic5"/>
 > É um protocolo que permite a conexão com servidores remotos, de forma criptografada e mais segura, usando um par de **chaves RSA**.
 > > #
 > > **Chave RSA (Rivest-Shamir-Adleman)** - É um dos primeiros sistemas de criptografia de chave pública e é amplamente utilizado para transmissão segura de dados. Neste sistema de criptografia, a chave de encriptação é pública e é diferente da chave de decriptação que é secreta (privada).
@@ -87,11 +113,19 @@
   <img name="borda-divisora-baixo" src="https://user-images.githubusercontent.com/60985347/144116278-04e3380a-d516-4017-916c-62301948b09b.png" width="30%"/>
 </div>
 
+<span id="topic2"/>
+
 ## Comandos GitBash
+> <a href="#summary">#retornar ao sumário</a>
+  
 <table>
   <tr>
     <th align="left">Comando</th>
     <th align="left">Descrição</th>
+  </tr>
+  <tr>
+    <td/>
+    <td/>
   </tr>
   <!-- linha 1-->
   <tr>
@@ -111,9 +145,68 @@
     <th align="left">$ cat [file] </th>
     <td>Mostra o conteúdo do arquivo informado</td>
   </tr>
+  <!-- linha 5-->
+    <th align="left">$ git config --global user.name [name]</th>
+    <td>Seta em âmbito global o nome do autor dos commits realizados na máquina</td>
+  </tr>
+  <!-- linha 6-->
+    <th align="left">$ git config --global user.email [email]</th>
+    <td>Seta em âmbito global o email do autor dos commits realizados na máquina</td>
+  </tr>
+  <!-- linha 7-->
+    <th align="left">$ git config --list</th>
+    <td>Mostra todos os valores configurados do git</td>
+  </tr>
+  <!-- linha 8-->
+    <th align="left">$ git init</th>
+    <td>Inicializa o git no diretório atual</td>
+  </tr>
+  <!-- linha 9-->
+    <th align="left">$ git status</th>
+    <td>Mostra se há modificações, deleções ou adições de arquivos no repositório</td>
+  </tr>
+  <!-- linha 10-->
+    <th align="left">$ git add [file]</th>
+    <td>Adiciona arquivos na fila de espera para serem comitados</td>
+  </tr>
+  <!-- linha 11-->
+    <th align="left">$ git commit -m "desc"</th>
+    <td>Comita os arquivos na fila de espera do "git add", e informa uma mensagem</td>
+  </tr>
+  <!-- linha 12-->
+    <th align="left">$ git branch -M main</th>
+    <td>Altera o nome atual da branch principal para main (padrão é master)</td>
+  </tr>
+  <!-- linha 13-->
+    <th align="left">$ git remote add origin [url]</th>
+    <td>Adiciona uma origem de repositório remoto</td>
+  </tr>
+  <!-- linha 14-->
+    <th align="left">$ git push -u origin main</th>
+    <td>Empurra todas as comissões do seu repositório local para o remoto definido por "origin" na branch "main" ("-u" faz o upstream, só é necessário usar essa tag uma vez ao usar push)</td>
+  </tr>
+  <!-- linha 14-->
+    <th align="left">$ git pull</th>
+    <td>Puxa todas as comissões feitas pelo repositório remoto para o local</td>
+  </tr>
+  <!-- linha 13-->
+    <th align="left">$ git clone [url]</th>
+    <td>Clona um repositório do GitHub</td>
+  </tr>
 </table>
 
+<br>
+<br>
+<br>
+<br>
 
+<span id="footer"/>
+  
+> <div align="center"><a href="#header">Voltar ao topo</a></div>
+  
+
+
+  
 <div align="center">
   <img name="borda-divisora-baixo" src="https://user-images.githubusercontent.com/60985347/144116278-04e3380a-d516-4017-916c-62301948b09b.png" width="30%"/>
 </div>
