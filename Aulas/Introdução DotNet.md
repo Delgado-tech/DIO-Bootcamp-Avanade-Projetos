@@ -184,7 +184,82 @@
 >
 > ![image](https://user-images.githubusercontent.com/60985347/148058727-4640546c-8649-48da-9885-0bb8d79573e7.png)
 
+<br>
 
+<div align="center">
+  <img name="borda-divisora-baixo" src="https://user-images.githubusercontent.com/60985347/144116278-04e3380a-d516-4017-916c-62301948b09b.png" width="30%"/>
+</div>
+
+
+<span id="topic4"/>
+  
+## Comandos .NET via CMD
+> <a href="#summary">#retornar ao sumário</a>
+  
+<table>
+  <tr>
+    <th align="left">Comando</th>
+    <th align="left">Descrição</th>
+  </tr>
+  <tr>
+    <td/>
+    <td/>
+  </tr>
+  <!-- linha 1-->
+  <tr>
+    <th align="left">dotnet –-info</th>
+    <td>Mostra as informações do dotnet instalado do seu computador</td>
+  </tr>
+  <tr>
+  <!-- linha 2-->
+    <th align="left">dotnet add [Pacote/Referência]</th>
+    <td>Adiciona pacotes ou referências ao projeto</td>
+  </tr>
+  <!-- linha 3-->
+    <th align="left">dotnet build</th>
+    <td>Constroi o projeto .NET que está na pasta atual</td>
+  </tr>
+  <!-- linha 4-->
+    <th align="left">dotnet new [TipoAplicação] [Argumentos]</th>
+    <td>Cria um novo projeto .NET com base na aplicação informada</td>
+  </tr>
+  <!-- linha 5-->
+    <th align="left">dotnet nuget</th>
+    <td>Comandos relacionados ao gerenciador de pacotes nuget</td>
+  </tr>
+  <!-- linha 6-->
+    <th align="left">dotnet publish</th>
+    <td>Publica o projeto .NET no âmbito web</td>
+  </tr>
+  <!-- linha 7-->
+    <th align="left">dotnet restore</th>
+    <td>Restaura todos os pacotes nuget do projeto</td>
+  </tr>
+  <!-- linha 8-->
+    <th align="left">dotnet run</th>
+    <td>Inicializa o projeto</td>
+  </tr>
+  <!-- linha 9-->
+    <th align="left">dotnet tool</th>
+    <td>Permite que você instale ferramentas de extensão .NET</td>
+  </tr>
+  <!-- linha 10-->
+    <th align="left">dotnet --version</th>
+    <td>Mostra as sdks instaladas no computador</td>
+  </tr>
+  <!-- linha 11-->
+    <th align="left">dotnet --help</th>
+    <td>Mostra todos os comandos que você pode utilizar dentro do dotnet</td>
+  </tr>
+  <!-- linha 12-->
+    <th align="left">explorer .</th>
+    <td>Abre o diretório atual do cmd</td>
+  </tr>
+  <!-- linha 13-->
+    <th align="left">code .</th>
+    <td>Busca por um arquivo de código na pasta atual do cmd e abre ele no seu editor de códigos padrão</td>
+  </tr>
+</table>
 
 <br>
 <br>
