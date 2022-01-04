@@ -29,7 +29,7 @@ O Decola Tech Avanade é o programa de Estágio da Avanade no qual os futuros ta
 > - <a href="https://github.com/Delgado-tech/dio-bootcamp-avanade-projetos/blob/main/Aulas/Git%20%26%20GitHub.md#header"> Git & GitHub </a>
 > - IDE Visual Studio
 > - Introdução ao C# e .NET
-> - Primeiros passos com .NET 
+> - <a href="https://github.com/Delgado-tech/dio-bootcamp-decolatech2/blob/main/Aulas/Introdução%20DotNet.md#header"> Primeiros passos com .NET </a>
 > - POO em C#
 > - Construtores, Propriedades, Delegates e Eventos em .NET
 > - Coleções e LINQ com .NET
