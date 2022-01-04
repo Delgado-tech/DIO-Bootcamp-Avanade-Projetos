@@ -35,7 +35,7 @@ O Decola Tech Avanade é o programa de Estágio da Avanade no qual os futuros ta
 > - Coleções e LINQ com .NET
 > - Microsserviços com .NET
 > - Desing Patterns com .NET
-> - Criando um APP simples de cadastro de séries em .NET
+> - <a href="https://github.com/Delgado-tech/dio-poo-projeto-appseries"> Criando um APP simples de cadastro de séries em .NET </a>
 > > **SQL SERVER**
 > > + Criando suas primeiras consultas
 > > + Modelando um banco de dados na prática
