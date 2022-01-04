@@ -26,7 +26,7 @@ O Decola Tech Avanade é o programa de Estágio da Avanade no qual os futuros ta
 > #
 > - Lógica de Programação
 > - Estruturas de Dados e Algoritmos
-> - Git & GitHub
+> - <a href="https://github.com/Delgado-tech/dio-bootcamp-avanade-projetos/blob/main/Aulas/Git%20%26%20GitHub.md#header"> Git & GitHub </a>
 > - IDE Visual Studio
 > - Introdução ao C# e .NET
 > - Primeiros passos com .NET 
