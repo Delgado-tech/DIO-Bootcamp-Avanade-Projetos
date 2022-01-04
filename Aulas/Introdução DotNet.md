@@ -179,6 +179,10 @@
 > - Garbage Collector – Coleta partes do código que não estão sendo utilizados e remove eles da memória.
 > - Exception Handler – Recebe e controla as exceções do nosso código. 
 > - Resources Manager - Um gerenciador de recursos que fornece acesso conveniente aos recursos específicos da cultura no tempo de execução.
+>
+> O exemplo abaixo mostra o funcionamento do C# dentro do .NET
+>
+> ![image](https://user-images.githubusercontent.com/60985347/148058727-4640546c-8649-48da-9885-0bb8d79573e7.png)
 
 
 
