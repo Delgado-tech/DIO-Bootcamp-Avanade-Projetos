@@ -89,7 +89,7 @@
 > > #
 >
 > Podemos criar uma chave SSH pelo GitBash pelo comando:
-> `$ ssh-keygen -t ed25519 -C leonardo.delgadosp2014@gmail.com` - Gerará dois arquivos contendo uma chave pública e uma privada, dentro do diretório `.ssh`.
+> `$ ssh-keygen -t ed25519 -C email.algo@gmail.com` - Gerará dois arquivos contendo uma chave pública e uma privada, dentro do diretório `.ssh`.
 > > #
 > > **Flags Usadas:**
 > > - `-t <dsa | ecdsa | ecdsa-sk | ed25519 | ed25519-sk | rsa>` - tipo de códificação da chave ssh.
